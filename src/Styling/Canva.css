@@ -1,0 +1,29 @@
+.drawArea{
+    background-color: gray;
+    width : 800px;
+    height: 800px;
+    border: '1px solid black';
+    overflow: scroll;
+    position: relative;
+}
+
+.item{
+    overflow: scroll;
+}
+.item::-webkit-scrollbar,.drawArea::-webkit-scrollbar {
+    display: none;
+}
+
+.item:hover::-webkit-scrollbar,.drawArea:hover::-webkit-scrollbar {
+    display: block;
+    width: 10px;
+    height: 10px;
+}
+
+.item::-webkit-scrollbar-track,.drawArea::-webkit-scrollbar-track {
+    background-color: #f5f0f047;
+}
+
+.item::-webkit-scrollbar-thumb,.drawArea::-webkit-scrollbar-thumb {
+    background-color: #ffffff5d;
+}

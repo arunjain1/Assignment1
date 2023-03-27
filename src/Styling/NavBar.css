@@ -1,0 +1,17 @@
+.nav_bar{
+    background-color: dodgerblue;
+    height: 50px;
+    width : 100vw;
+    display: flex;
+    align-items: center;
+    font-size: large;
+    font-weight: 700;
+}
+.delete_btn{
+    position: absolute;
+    right: 20px;
+}
+.title{
+    position: absolute;
+    left :40%;
+}

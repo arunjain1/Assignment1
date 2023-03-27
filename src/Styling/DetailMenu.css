@@ -1,0 +1,6 @@
+.detail_menu{
+    width: 400px;
+    height: 800px;
+    background-color: lightsteelblue;
+    z-index: 999;
+}
